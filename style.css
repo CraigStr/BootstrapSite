@@ -1,0 +1,53 @@
+body {
+	background-image: url(resources/background.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.container, .container-fluid {
+	width: 100% !important;
+	padding: 0px;
+	margin: 0px;
+}
+
+.card-profile {
+	width: 100%;
+}
+.card-profile-bg{
+	padding-left: 3rem;
+	padding-top: 7rem;
+}
+
+.card-deck {
+	padding-right: 0px;
+}
+
+.main-bg {
+	background-color: white;
+	margin-top: 8rem;
+	width: 100%;
+}
+
+nav {
+	width: 100%;
+}
+
+.navbar-default {
+	background-color: transparent;
+	transition: background-color 1s;
+}
+
+.opaque {
+	background-color: white;
+}
+
+.navbar-brand img {
+	width: 100% !important;
+	height: 4rem;
+	padding-left: 1rem;
+}
+
+.card{
+	min-width: 150px !important;
+}
